@@ -1,0 +1,119 @@
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+	border:0px;
+	overflow-x:hidden;
+}
+.header-cont{
+	list-style-type:none;
+}
+.container-fluid{
+	height:50px;
+
+}
+.main{
+	 border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+	
+	height: 80%;
+	width: 100%;
+	background-size: cover; 
+	background-position: center;
+	position:relative;
+	z-index: 0;
+		
+	margin:auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	 
+
+}
+.title h1{
+	font-size: 70px;	
+}
+.title h4{
+	font-size: 30px;
+}	
+.login{
+	 border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+	width:100%;
+	height:80%;
+	top:80%;
+		background-color: rgb(69, 69, 137);
+
+	
+	
+	background-size: cover; 
+	background-position: center;
+	position:relative;
+	z-index: 0;
+}
+
+.button1 {
+margin-top:80px;
+margin-left:23%;
+float:left;
+}
+.button11{
+	 border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  width:250px;
+  height:250px;
+
+  border: none;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+
+  cursor: pointer;
+  background-image:url(../fu.png);
+ background-size: contain; 
+ background-repeat:no-repeat;
+	background-position: center;
+	font-weight:bold;
+ border-radius: 50%;
+}
+.button2{
+margin-top:80px;
+margin-left:20%;
+float:left;
+}
+.button22{
+	 border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  width:250px;
+  height:250px;
+
+  border: none;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+
+  cursor: pointer;
+  background-image:url(../du.jpg);
+ background-size: contain; 
+ background-repeat:no-repeat;
+	background-position: center;
+	font-weight:bold;
+ border-radius: 50%;
+}

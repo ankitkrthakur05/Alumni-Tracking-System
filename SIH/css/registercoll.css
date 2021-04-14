@@ -1,0 +1,196 @@
+*{
+overflow-x:hideen;
+}
+body{
+	margin:0px;
+	padding:10px;
+	
+}
+header{
+	background: black;
+	opacity :.8;
+	 padding-top:30px;
+	padding-right:10px;
+	
+	z-index:1;
+	position:absolute;
+	width:100%;
+	height:15%;
+	 }
+.main{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../8989.jpg);
+	
+	height: 120%;
+	width: 100%;
+	background-size: cover; 
+	background-position: absolute;
+	background-repeat:no-repeat;
+	position:relative;
+	z-index:0;	
+}
+
+ul li{
+
+	float: right;
+	width: 120px;
+	height: 40px;
+	
+	text-align: center;
+ }	
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	transition: 0.6s ease ;
+	display: block;
+	
+}            
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+.title h1{
+	text-align: center;
+	 
+	color:#fff;
+}
+.title h2{
+	text-align: center;
+	padding: 10px;
+	color:#fff;
+}
+.form
+{		padding-top:60px;
+		text-align:center;
+        max-width:500px;
+		border-radius:20px;
+		margin:auto;
+		background:rgba(0,0,0,0.8);
+		box-sizing:border-box;
+		padding:10px;
+		color:blue;
+		
+}
+input[type=text],input[type=password],input[type=number]
+{	
+	height:30px;
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px;
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#collegenumber{
+	height:30px;
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#ph{
+	height:30px;
+	text-align:center;
+	width:15%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+font-weight:bold;}
+#ph:hover{
+	background-color: #fff;
+	color: #000;
+}
+	
+#collegepassword{
+	height:30px;
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#board{
+	height:30px;
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#board:hover{
+	background-color: #fff;
+color: #000;}
+#mail{
+	padding-left:10px;
+	margin-left:100px;
+}
+.image-upload-wrap{
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 150px; 
+	background:rgba(0,0,0,0.10);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:1px;
+	font-weight:bold;
+}
+input[type=submit]
+{
+box-sizing:border-box;
+padding-left:10px ;
+background:#60adde;
+outline:none;
+border:none;
+color:#fff;
+opacity:0.7;
+border-radius:5px;
+margin-left:30px;
+font-size:30px;
+}
+	
+	
+
+ 

@@ -1,0 +1,83 @@
+*{
+	margin:50px;
+	
+	background-color: rgb(69, 69, 137);
+}
+
+.button1 {
+
+float:left;
+}
+.button11{
+	
+   width :230px;
+	height:230px;
+
+  border: none;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+
+  cursor: pointer;
+  background-image:url(../fu.png);\
+ background-size: 200px 100px; 
+ background-repeat:no-repeat;
+	background-position: center;
+	font-weight:bold;
+ border-radius: 50%;
+}
+.button2{
+
+
+}
+button22{
+	background-color: #4CAF50; /* Green */
+    width :200px;
+	height:200px;
+
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+	
+  cursor: pointer;
+  background-image:url(../du.jpg);\
+ background-size: 100% 100%;
+ background-repeat:no-repeat;
+	background-position: center;
+	font-weight:bold;
+ border-radius: 50%;
+}
+
+.circle-1 {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border:20px solid #baacc6;
+  float:left;
+}
+
+.circle-1 img {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  cursor:pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+.circle-1:hover img {
+ transform: scale(1.1);
+-ms-transform: scale(1.1); 
+-webkit-transform: scale(1.1);
+  box-shadow: 2px 2px 2px #4b4b4b;
+  
+}
+
+
+

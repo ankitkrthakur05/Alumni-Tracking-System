@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	
+}
+.header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../8989.jpg);
+	
+	height: 150%;
+	width: 100%;
+	background-size: cover; 
+	background-position: absolute;
+	position:fixed;
+	z-index: 1;	
+}
+h1{
+	text-align: center;
+	 
+	color:#fff;
+}
+h2{
+	text-align: center;
+	padding: 10px;
+	color:#fff;
+}
+.form
+{		text-align:center;
+        max-width:500px;
+		border-radius:20px;
+		margin:auto;
+		background:rgba(0,0,0,0.8);
+		box-sizing:border-box;
+		padding:5px;
+		color:blue;
+		
+}
+#collegename{
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px;
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#collegenumber{
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#ph{
+	text-align:center;
+	width:10%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+font-weight:bold;}
+#ph:hover{
+	background-color: #fff;
+	color: #000;
+}
+	
+#collegepassword{
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#board{
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+#board:hover{
+	background-color: #fff;
+color: #000;}
+#collegeaddress{text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 1px; 
+	background:rgba(0,0,0,0.8);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+}
+.image-upload-wrap{
+	text-align:center;
+	width:50%;
+	box-sizing:border-box;
+	padding:2px 150px; 
+	background:rgba(0,0,0,0.10);
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:1px;
+	font-weight:bold;
+}
+.button{
+	text-align:center;
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 60px; 
+	color:blue;
+	border-radius:15px;
+	margin:1px;
+	font-weight:bold;
+}
+	
+	
+
+ 

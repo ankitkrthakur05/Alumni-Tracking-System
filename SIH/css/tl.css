@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e6e6e6;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    height: 47px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+input[type="text"] {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    height: 200px;
+}
+
+.corners {
+    background: #FFF;
+    height: 500px;
+    margin: 50px auto;
+    max-width: 400px;
+    line-height: 25px;
+    position: relative;
+    width: 80%;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 40px;
+    -webkit-box-shadow: 0 1px 7px hsla(0, 0%, 0%, .2);
+    -moz-box-shadow: 0 5px 7px hsla(0, 0%, 0%, .2);
+    box-shadow: 5px 10px 10px hsla(0, 0%, 0%, .2);
+    float: left;
+    margin-left: 100px;
+}
+
+
+/* Corner Effect */
+
+.corners:after,
+.corners:before {
+    background: #e6e6e6;
+    content: '';
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    width: 100px;
+    -webkit-box-shadow: 0 5px 10px -7px hsla(0, 0%, 0%, .5);
+    -moz-box-shadow: 0 5px 10px -7px hsla(0, 0%, 0%, .5);
+    box-shadow: 0 5px 10px -7px hsla(0, 0%, 0%, .5);
+}
+
+.corners:after {
+    left: -50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.corners:before {
+    right: -50px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.demo {
+    margin-right: 50px;
+    float: right;
+    width: 50%;
+    height: 400px;
+}
